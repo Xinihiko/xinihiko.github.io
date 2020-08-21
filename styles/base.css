@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdff;
+    /*overflow: hidden;*/
+}
+
+#navbar{
+    background-color: #fdfdff;
+    overflow: hidden;
+    padding-top: 1vw;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#navbar a{
+    float: right;
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 1vw 1.5vw;
+    text-decoration: none;
+    font-size: 2vw;  
+    border-radius: 2vw;
+}
+
+#navbar a:hover{
+    color: #fdfdff;
+    background-color: #333333;
+}
+
+#headline{
+    margin: 5vw 10vw 2vw 10vw;
+    height: 30vw;
+}
+
+.logo{
+    padding-top: 5vw;
+    color:#333333;
+    font-size: 9vw;
+}
+
+.logo-desc{
+    color:#333333;
+    font-size: 3vw;
+}
+
+button{
+    margin-top: 2vw;
+    border-radius: 1vw;
+    padding: 1vw 2vw;
+    color: #eeeeff;
+    background: #333333;
+    font-size: 1.5vw;
+}
+
+#skillset{
+    margin: 5vw 10vw 2vw 10vw;
+    /*padding: 10vw 0 0 0;*/
+    height: 25vw;
+}
+
+.skill{
+    width: 20%;
+    float: left;
+}
+
+.skill-logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    height: 10vw;
+    display: block;
+}
+
+.skill-name{
+    margin-top: 1vw;
+    text-align: center;
+    color: #333333;
+    font-size: 1.5vw;
+}
+
+#educational{
+    margin: 5vw 10vw 2vw 10vw;
+    /*padding: 10vw 0 0 0;*/
+}
+
+.school{
+    width: 100%;
+    margin: 2vw 0;
+    height: 12.5vw;
+}
+
+.school-logo{
+    margin-right: 2vw;
+    padding: 1vw;
+    width: 10vw;
+    height: 10vw;
+    display: block;
+    float: left;
+    border-radius: 2vw;
+    opacity: 50%;
+    background: #aaaaaa;
+    overflow: hidden;
+}
+
+.school-logo:hover{
+    opacity: 100%;
+    background: #fdfdff;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.school-name{
+    text-align: left;
+    color: #333333;
+    font-size: 2vw;
+    font-weight: bold;
+    display: inline;
+}
+
+.school-desc{
+    text-align: left;
+    color: #333333;
+    font-size: 2vw;
+    float: right;
+    display: inline;
+}
+
+.school-summary{
+    text-align: left;
+    color: #333333;
+    font-size: 1.5vw;
+}
+
+#achievements{
+    margin: 5vw 10vw 2vw 10vw;
+    height: 25vw;
+}
+
+.achievement{
+    width: 100%;
+    margin: 2vw 0;
+    /*height: 12.5vw;*/
+}
+
+.achievement-name{
+    text-align: left;
+    color: #333333;
+    font-size: 2vw;
+}
+
+.achievement-desc{
+    text-align: left;
+    color: #333333;
+    font-size: 1.5vw;
+}
+
+#contacts{
+    margin: 5vw 10vw 2vw 10vw;
+    /*padding: 10vw 0 0 0;*/
+    height: 35vw;
+}
+
+.contact{
+    width: 33%;
+    float: left;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact-logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    height: 10vw;
+    display: block;
+    border-radius: 2vw;
+    opacity: 50%;
+    background: #aaaaaa;
+    overflow: hidden;
+}
+
+.contact-logo:hover{
+    opacity: 100%;
+    background: #fdfdff;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.contact-name{
+    margin-top: 2vw;
+    text-align: center;
+    color: #333333;
+    font-size: 2vw;
+}
+
+#footer{
+    background-color: #333333;
+    color: #fdfdff;
+    padding: 2vw 0;
+}
+
+#made{
+    font-size: 1vw;
+    text-align: center;
+}
+
+h2{
+    color: #333333;
+    font-size: 2vw;
+}
