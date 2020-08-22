@@ -83,49 +83,111 @@ button{
 
 #educational{
     margin: 5vw 10vw 2vw 10vw;
+    /*height: 50vw;*/
     /*padding: 10vw 0 0 0;*/
 }
 
-.school{
-    width: 100%;
-    margin: 2vw 0;
-    height: 12.5vw;
+@media (max-width: 752px)
+
+{
+    .school{
+        /*height: 12.5vw;*/
+        /*min-height: 33%;*/
+    }
+
+    .school-title{
+        width: 100%;
+    }
+
+    .school-name{
+        text-align: left;
+        color: #333333;
+        font-size: 2vw;
+        font-weight: bold;
+    }
+
+    .school-desc{
+        text-align: left;
+        color: #333333;
+        font-size: 2vw;
+    }
+
+    .school-logo{
+        margin-right: 2vw;
+        padding: 1vw;
+        width: 20%;
+        display: block;
+        float: left;
+        border-radius: 2vw;
+        opacity: 50%;
+        background: #aaaaaa;
+        overflow: hidden;
+    }
+
+    .school-logo:hover{
+        opacity: 100%;
+        background: #fdfdff;
+        transition: .5s ease;
+        overflow: hidden;
+    }
+
+    .school-block{
+        width: 100%;
+        height: 25vw;
+    }
 }
 
-.school-logo{
-    margin-right: 2vw;
-    padding: 1vw;
-    width: 10vw;
-    height: 10vw;
-    display: block;
-    float: left;
-    border-radius: 2vw;
-    opacity: 50%;
-    background: #aaaaaa;
-    overflow: hidden;
-}
+@media (min-width: 752px) {
+    .school{
+        width: 100%;
+        margin: 2vw 0;
+        height: 12.5vw;
+        min-height: 33%;
+    }
 
-.school-logo:hover{
-    opacity: 100%;
-    background: #fdfdff;
-    transition: .5s ease;
-    overflow: hidden;
-}
+    .school-title{
+        width: 100%;
+        height: 2vw;
+    }
 
-.school-name{
-    text-align: left;
-    color: #333333;
-    font-size: 2vw;
-    font-weight: bold;
-    display: inline;
-}
+    .school-name{
+        text-align: left;
+        color: #333333;
+        font-size: 2vw;
+        font-weight: bold;
+        display: inline;
+    }
 
-.school-desc{
-    text-align: left;
-    color: #333333;
-    font-size: 2vw;
-    float: right;
-    display: inline;
+    .school-desc{
+        text-align: left;
+        color: #333333;
+        font-size: 2vw;
+        float: right;
+        display: inline;
+    }
+
+    .school-logo{
+        margin-right: 2vw;
+        padding: 1vw;
+        width: 15%;
+        display: block;
+        float: left;
+        border-radius: 2vw;
+        opacity: 50%;
+        background: #aaaaaa;
+        overflow: hidden;
+    }
+
+    .school-logo:hover{
+        opacity: 100%;
+        background: #fdfdff;
+        transition: .5s ease;
+        overflow: hidden;
+    }
+
+    .school-block{
+        width: 100%;
+    }
 }
 
 .school-summary{
