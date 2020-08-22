@@ -35,13 +35,13 @@ body{
     height: 30vw;
 }
 
-.logo{
+#logo{
     padding-top: 5vw;
     color:#333333;
     font-size: 9vw;
 }
 
-.logo-desc{
+#logo-desc{
     color:#333333;
     font-size: 3vw;
 }
