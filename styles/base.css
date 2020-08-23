@@ -264,6 +264,9 @@ button{
     background-color: #333333;
     color: #fdfdff;
     padding: 2vw 0;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
 }
 
 #made{
@@ -273,5 +276,127 @@ button{
 
 h2{
     color: #333333;
+    font-size: 3vw;
+}
+
+h4{
+    padding-left: 1vw;
+    color: #333333;
     font-size: 2vw;
+    margin: 0;
+}
+
+
+/*Skillset.html only*/
+#skills{
+    margin: 5vw 10vw 2vw 10vw;
+    height: 30vw;
+}
+
+.skill-block{
+    width: 45%;
+    margin: 0 0 0 3vw;
+    display: block;
+    height: 2vw;
+    float: left;
+}
+
+.skill-block-name{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #333333;
+    float: left;
+    width: 40%;
+}
+
+.skill-level{
+    font-size: 1.5vw;
+    color: #333333;
+    float: left;
+    margin: 0 5vw;
+}
+
+#projects{
+    margin: 5vw 10vw 2vw 10vw;
+    /*padding: 10vw 0 0 0;*/
+    /*use 35*rows for height*/
+    height: 70vw;
+}
+
+.project-col{
+    height: 30vw;
+    display: block;
+    margin: 1vw auto;
+}
+
+.project-card{
+    box-shadow: 0 0.5vw 0.75vw 0 rgba(3,3,3,0.2);
+    transition: 0.3s;
+    width: 27%;
+    float: left;
+    margin: 1vw 2vw;
+    opacity: 70%;
+    border-radius: 2vw;
+}
+
+.project-card:hover{
+    box-shadow: 0 0.75vw 1vw 0 rgba(3,3,3,0.3);
+    opacity: 100%;
+}
+
+.project-card img{
+    width: 90%;
+    padding: 1vw;
+    margin: 0 auto;
+}
+
+.project-name{
+    padding: 1vw 2vw;
+    color: #333333;
+    text-align: center;
+    font-size: 1.5vw;
+    height: 6vw;
+    border-radius: 0 0 2vw 2vw;
+}
+
+/*Article Related*/
+#project-article{
+    margin: 5vw 10vw 2vw 10vw;
+}
+
+.project-image{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 5vw;
+}
+
+.project-desc{
+    font-size: 2.5vw;
+    color: #333333;
+    text-align: justify;
+}
+
+
+/*Education.html*/
+#courses{
+    margin: 5vw 10vw 2vw 10vw;
+    height: 30vw;
+}
+
+.course-block{
+    width: 45%;
+    margin: 0 0 0 3vw;
+    display: block;
+    height: 2vw;
+    float: left;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #333333;
+}
+
+.years{
+    float: right;
+    color: #333333;
+    font-size: 3vw;
 }
