@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f8a1eaaa.css",
+    "main.js": "/static/js/main.95c7ecf0.js",
+    "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
+    "static/media/Vegetables and Fruit Classification using Deep Convolutional Neural Network.jpg": "/static/media/Vegetables and Fruit Classification using Deep Convolutional Neural Network.772f9560fe3b6e793cf0.jpg",
+    "static/media/CV_Amadeus Suryo Winoto.pdf": "/static/media/CV_Amadeus Suryo Winoto.29cce088eab6fce86d76.pdf",
+    "static/media/tensorflow.png": "/static/media/tensorflow.340075d9bbba9c02c564.png",
+    "static/media/logoBIT.png": "/static/media/logoBIT.22340d121210b9b8c714.png",
+    "static/media/portfolio.png": "/static/media/portfolio.edf6a128255d92510af2.png",
+    "static/media/chainape.png": "/static/media/chainape.41554e236dae351fd7c2.png",
+    "static/media/ieeeaccess.jpg": "/static/media/ieeeaccess.bc212fc9069aa34fc2e8.jpg",
+    "static/media/email_and_wa.png": "/static/media/email_and_wa.81687836724802f0ac72.png",
+    "static/media/me_behind.png": "/static/media/me_behind.5c58e443a7ba3b67abe0.png",
+    "static/media/logoBINUS.png": "/static/media/logoBINUS.9258058f4e7b4d311fc0.png",
+    "static/media/wave.png": "/static/media/wave.e68497afbde30f862124.png",
+    "static/media/django.svg": "/static/media/django.2dd7b4bf62857a328560.svg",
+    "index.html": "/index.html",
+    "main.f8a1eaaa.css.map": "/static/css/main.f8a1eaaa.css.map",
+    "main.95c7ecf0.js.map": "/static/js/main.95c7ecf0.js.map",
+    "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8a1eaaa.css",
+    "static/js/main.95c7ecf0.js"
+  ]
+}
