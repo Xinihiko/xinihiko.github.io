@@ -1,0 +1,224 @@
+:root {
+  --background-gradient : radial-gradient(farthest-corner at 0px 0px, lightblue 0%, pink 100%);
+  --background-gradient-reversed : radial-gradient(farthest-corner at 0 0, pink 0%, lightblue 100%);
+  --footer-color : #333;
+  --background-color : #fbfbf8;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--background-color) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  background: var(--header-background);
+  color: var(--header-color);
+  text-align: center;
+}
+
+footer {
+  background: var(--background-color);
+  color: var(--footer-color);
+  text-align: center;
+}
+
+.navbar {
+  background: var(--background-color);
+}
+
+.navbar-brand:hover {
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.navbar-brand.active {
+  font-weight: 900;
+  opacity: .9;
+}
+
+.nav-link {
+  min-width: 100px;
+  border-radius: 2vw;
+  text-align: center;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  background: var(--background-gradient);
+}
+
+.nav-link.active {
+  background: var(--background-gradient);
+  color: var(--background-color) !important;
+  opacity: .9;
+}
+
+#Hero {
+  background: var(--background-gradient);
+  padding: 5% 0 20% 0;
+  position:relative;
+}
+
+#Hero::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20vw;
+  background-color: var(--background-color);
+  mask-image: url(assets/wave.png);
+  mask-repeat: no-repeat;
+  mask-size: cover;
+}
+
+.btn-readmore {
+  /* cursor: default !important; */
+  width: 90%;
+}
+
+#Counter-hero {
+  background: var(--background-gradient);
+  padding: 20% 0 3% 0;
+  position:relative;
+}
+
+#Counter-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  rotate: 180;
+  width: 100%;
+  height: 20vw;
+  background-color: var(--background-color);
+  mask-image: url(assets/wave.png);
+  mask-repeat: no-repeat;
+  mask-size: cover;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+#skill-compact {
+  background: var(--background-gradient-reversed);
+}
+
+.gradient-text, .navbar-brand:hover, .navbar-brand.active {
+  background: var(--background-gradient-reversed);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.4 !important;
+}
+
+.skill-card {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 2vw !important;
+  background: transparent !important;
+  /* color: rgba(0,0,0,0.7); */
+  opacity: .7;
+}
+
+.skill-card:hover {
+  transform: translateY(-1.5rem);
+  /* background: rgba(255,255,255,0.3) !important; */
+  opacity: .85;
+  color: black;
+}
+
+.badge-container {
+  gap: .3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-frontend {
+  background-color: lightblue !important;
+  color: darkslateblue !important;
+}
+
+.bg-backend {
+  background-color: lightpink !important;
+  color: darkred !important;
+}
+
+.bg-database {
+  background-color: green !important;
+  color: whitesmoke !important;
+}
+
+.default-hide {
+  display: none;
+}
+
+.now-show {
+  display: block;
+}
+
+.school-logo {
+  width: 100%;
+}
+
+#binusBtn img, #sitBtn img, #bitBtn img {
+  width: 5rem;
+  height: 5rem;
+}
+
+#binusBtn:hover, #binusBtn.active {
+  background: #0275d8;
+}
+
+#sitBtn:hover, #sitBtn.active {
+  background: #072b17;
+}
+
+#bitBtn:hover, #bitBtn.active {
+  background: #4b0b19;
+}
+
+.contact-btn {
+  transform: scale(1, 1);
+  transition: transform .5s;
+}
+
+.contact-btn:hover {
+  transform: scale(1.5, 1.5);
+  cursor: pointer;
+}
+
+.bi-tensorflow::before {
+  background-image: url("./assets/tensorflow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+}
+
+.bi-django::before {
+  background-image: url("./assets/django.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  height: 3rem;
+  width: 5rem;
+}
+
+.min-vh-80 {
+  min-height: 80vh !important;
+}
